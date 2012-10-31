@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Fashion Collage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Fashion Collage</string>
+    
+    <!-- MainActivity -->
+    <string name="main_tab_create">Create</string>
+    <string name="main_tab_collage">Collages</string>
+    <string name="main_menu_save">Save</string>
+    
+    <!-- ChooseItemBox -->
+    <string name="title_chooseitembox">Choose Item</string>
+    <string name="chooseitembox_tab_tops">Top</string>
+    <string name="chooseitembox_tab_bottoms">Bottom</string>
+    <string name="chooseitembox_tab_shoes">Shoes</string>
+    <string name="chooseitembox_tab_accessories">Accessories</string>
+
+</resources>

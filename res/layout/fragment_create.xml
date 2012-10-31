@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--  
+    <ImageView
+        android:id="@+id/create_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+    -->
+    
+    <!-- 4 imageviews that can be filled with images (one in each frame) - a collage -->
+    
+    <ImageView 
+        android:id="@+id/create_image_frame1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@android:drawable/gallery_thumb"/>
+    
+    <ProgressBar
+        android:id="@+id/create_image_spinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp" />
+    
+    <ImageView 
+        android:id="@+id/create_image_frame2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@android:drawable/gallery_thumb"/>
+    
+    <ImageView 
+        android:id="@+id/create_image_frame3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:src="@android:drawable/gallery_thumb"/>
+    
+    <ImageView 
+        android:id="@+id/create_image_frame4"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:src="@android:drawable/gallery_thumb"/>
+
+
+</RelativeLayout>
