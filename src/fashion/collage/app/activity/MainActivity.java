@@ -171,9 +171,9 @@ public class MainActivity extends SherlockFragmentActivity {
         	Bitmap bitmap4 = CollageHelper.getBitmapFromURL(helper.getChosenFashionItem4().getLargeImageUrl());
         	
         	canvas.drawColor(Color.WHITE);
-        	canvas.drawBitmap(bitmap1, 50f, 60f, null);
+        	canvas.drawBitmap(bitmap1, 50f, 40f, null);
         	canvas.drawBitmap(bitmap2, 250f, 40f, null);
-        	canvas.drawBitmap(bitmap3, 50f, 250f, null);
+        	canvas.drawBitmap(bitmap3, 70f, 260f, null);
         	canvas.drawBitmap(bitmap4, 250f, 280f, null);
         	
         	convertToBytesAndSave();
